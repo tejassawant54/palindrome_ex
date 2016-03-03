@@ -1,0 +1,105 @@
+h1{
+    position: relative;
+    left: 460px;
+    font-family: 'Shadows Into Light', cursive;
+    width: 350px;
+    
+}
+
+#imageDiv {
+	
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 520px;
+    height: 500px;
+}
+
+td{
+    background-color: #66CCFF;
+    font-family: sans-serif;
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    margin: 0;
+}
+
+.iLabel {
+	
+    position: relative;
+    left: 580px;
+}
+
+.prescreen-input {
+	   
+    position: absolute;
+    font-family: sans-serif;
+    top: 115px;
+    left: 515px;
+    width: 240px;
+    height: 145px;
+    outline: none;
+    resize: none;
+}
+
+.prescreen-button {
+    
+	position: absolute;
+    font-family: sans-serif;
+    top: 290px;
+    left: 600px;
+}
+
+.btn {
+  background: #3498db;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 10px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+.btn:active {
+  outline: none;
+  border: none;    
+}
+
+.btn:focus{
+    outline: 0;
+}
+
+.oLabel {
+	
+    position: absolute;
+    top: 15px;
+    left: 432px;
+}
+
+.prescreen-output {
+	position: relative;
+    display: none;
+    top: 270px;
+    left: 475px;
+    width: 25%;
+}
+
+#error {
+    display: none;
+    position: absolute;
+    top: 160px;
+    left: 770px;
+    font-family: sans-serif;
+	border: 1px solid #f5aca6;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    padding:4px 4px;
+    background-color: #ffecec;
+}

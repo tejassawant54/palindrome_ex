@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Prescreen DealerTask</title>
+        <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+        <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <h1>THE PALINDORME CHECKER</h1>
+        <div id="imageDiv">
+            <img src="images/pal.jpg" style="width:100%;height:100%;"/>
+        </div>
+        <label class="iLabel">ENTER INPUT</label>
+        <span id="error"></span>
+        <textarea class="prescreen-input" id="preTxt" pattern="/[a-z A-Z]+:[0-9]/" >John: 2 
+Jane: 3 
+John: 4 
+Jane: 5</textarea>
+        
+        <input class="btn prescreen-button" type="button" id="preBtn" name="submit" value="SUBMIT" onclick="doTask();" />
+        <div class="prescreen-output" id="divTable" >
+            <table id="preTable"></table>
+        </div>
+      
+        <script type="text/javascript" src="JS/script.js"></script>
+    </body>
+</html>
